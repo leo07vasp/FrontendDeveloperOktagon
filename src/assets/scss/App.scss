@@ -1,0 +1,54 @@
+#sidebarMenu {
+  min-height: 100vh;
+  background: #083a6b;
+  .nav-item {
+    a {
+      padding: 5px 10px;
+      width: 100%;
+      display: block;
+      color: #fff;
+      &.active {
+        background: #007bff;
+        color: #fff;
+      }
+    }
+  }
+}
+
+.preview-detail {
+  img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+  }
+}
+
+#preview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 12px;
+  cursor: pointer;
+  width: 150px;
+  height: 150px;
+  border: 1px solid #ccc;
+
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+}
+
+.react-responsive-modal-modal {
+  .react-daterange-picker__wrapper {
+    border: 0;
+    text-align: center;
+  }
+}
+
+.sticky-top {
+  z-index: 900;
+}
